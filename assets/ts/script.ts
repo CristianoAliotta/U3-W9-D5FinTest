@@ -127,7 +127,8 @@ sbo.provider.callLog();
 sbo.provider.customerService()
 sbo.provider.logReset();
 sbo.provider.callLog();
-
+console.log("--------------------------------------------------------");
+console.log("--------------------------------------------------------");
 let btn10 = document.querySelector('button:nth-of-type(1)') as HTMLButtonElement
 btn10.addEventListener('click', function add10() {
     msv.provider?.topUp(10);
