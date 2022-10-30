@@ -1,0 +1,33 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+#phone {
+  background-image: url(../img/blanksmartphone.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 100vh;
+  width: 270px;
+}
+#display {
+  width: 50%;
+  margin-top: 4vh;
+  margin-left: 3vw;
+}
+
+button:nth-of-type(1),
+button:nth-of-type(2),
+button:nth-of-type(3) {
+  border-radius: 50%;
+  padding: 3px;
+  background-color: orangered;
+  border: none;
+  color: beige;
+  margin-bottom: 1vh;
+}
+button:nth-of-type(4),
+button:nth-of-type(5),
+button:nth-of-type(6) {
+  border-radius: 12px;
+  background-color: orangered;
+  border: none;
+  color: beige;
+  margin-bottom: 1vh;
+}
